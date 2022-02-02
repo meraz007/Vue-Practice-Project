@@ -1,14 +1,15 @@
 <template>
   <div class="home">
-   <h1>This is Home Page!!</h1>
+    <newEmployeeBtn />
   </div>
 </template>
 
 <script>
-
-
+import newEmployeeBtn from '../components/Home/newEmployeeBtn.vue'
 export default {
   name: 'Home',
-  components: {}
+  components: {
+    newEmployeeBtn
+  }
 }
 </script>
